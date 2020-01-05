@@ -1,0 +1,11 @@
+h1 {
+  font-size: 100px;
+  color: red;
+  align-self: auto;
+  color: blue;
+}
+
+img {
+  background-color: red;
+  height: 150px;
+}
