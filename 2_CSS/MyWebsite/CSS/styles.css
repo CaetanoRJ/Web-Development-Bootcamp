@@ -1,9 +1,4 @@
-div {
-    background-color: rgb(134, 227, 255);
-    margin: 0;
-    /* zera tudo colocando apenas 0 */
-
-}
+/***************************  TAG SELECTOR  ****************************************/
 
 p {
     margin: 0;
@@ -15,4 +10,27 @@ h1 {
 
 body {
     margin: 0;
+}
+
+
+/***************************  CLASS SELECTOR  ****************************************/
+
+.top-container {
+    background-color: rgb(134, 227, 255);
+    margin: 0;
+    /* zera tudo colocando apenas 0 */
+
+}
+
+.middle-container {
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: blue;
+}
+
+.bottom-container {
+    background-color: chocolate;
+    height: 350px;
+    width: 350px;
 }
