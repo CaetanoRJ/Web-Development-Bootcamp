@@ -1,0 +1,18 @@
+div {
+    background-color: rgb(134, 227, 255);
+    margin: 0;
+    /* zera tudo colocando apenas 0 */
+
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+body {
+    margin: 0;
+}
