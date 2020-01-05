@@ -7,6 +7,7 @@ p {
 h1 {
     margin-top: 0px;
     font-family: 'Pacifico', cursive;
+    font-size: 90px;
 }
 
 h2 {
@@ -38,8 +39,8 @@ body {
 
 .top-cloud {
     position: absolute;
-    right: 200px;
-    top: 50px;
+    right: 26%;
+    top: 9%;
 
 }
 
