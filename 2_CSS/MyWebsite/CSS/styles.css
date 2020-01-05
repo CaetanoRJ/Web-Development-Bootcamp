@@ -47,17 +47,3 @@ body {
     display: inline-block;
     position: absolute;
 }
-
-
-.middle-container {
-    margin-top: 20px;
-    height: 350px;
-    width: 350px;
-    background-color: blue;
-}
-
-.bottom-container {
-    background-color: chocolate;
-    height: 350px;
-    width: 350px;
-}
