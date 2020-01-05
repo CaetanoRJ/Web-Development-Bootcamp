@@ -1,3 +1,5 @@
+/********************************* TAG SELECTOR  ********************************************/
+
 h1 {
   font-size: 100px;
   color: red;
@@ -5,7 +7,38 @@ h1 {
   color: blue;
 }
 
+/* 
 img {
   background-color: red;
   height: 150px;
+}
+ */
+
+/********************************** CLASS SELECTOR  ********************************************/
+
+.bacon {
+  background-color: red;
+  height: 150px;
+}
+
+.broccolis {
+  background-color: cadetblue;
+}
+
+.broccolis:hover {
+  background-color: rgb(117, 0, 128);
+}
+
+.circular {
+  border-radius: 75%;
+}
+
+/********************************** ID SELECTOR  ********************************************/
+
+#paragrafo {
+  color: crimson;
+}
+
+#heading {
+  color: blueviolet;
 }
