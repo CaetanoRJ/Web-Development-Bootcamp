@@ -1,0 +1,2 @@
+var myName = "pedro"
+myName
