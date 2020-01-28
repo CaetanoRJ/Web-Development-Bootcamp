@@ -40,9 +40,6 @@ function nextSequence() {
     $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
     playSound(randomChosenColour);
     userClickedPattern = []
-    /*   animatePress(randomChosenColour); */
-
-
 
 }
 
@@ -53,7 +50,7 @@ function checkAnswer(elementoDoArray) {
         if (userClickedPattern.length === gamePattern.length) {
             setTimeout(function () {
                 nextSequence();
-            }, 700);
+            }, 800);
 
 
         }
@@ -62,7 +59,7 @@ function checkAnswer(elementoDoArray) {
         $("body").addClass("game-over")
         setTimeout(function () {
             removeGameOver();
-        }, 700);
+        }, 1250);
         resetGame()
     }
 
@@ -78,7 +75,7 @@ function resetGame() {
     userClickedPattern = [];
     iniciaJogo = true;
     level = 0;
-    $("#level-title").text("GAME OVER,  pressione qualquer tecla para iniciar um novo jogo!");
+    $("#level-title").html("GAME OVER <br/>  pressione qualquer tecla para iniciar um novo jogo!");
 
 }
 
